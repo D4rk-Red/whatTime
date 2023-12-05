@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A&display=swap');
+
+
+* {
+    margin: auto;
+    padding: auto;
+    font-family: 'Noto Sans Linear A', sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  ======================
+    ======== MENU ========
+    ======================
+*/
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+
+.menu h1 {
+    color: #ffff;
+}
+
+.opciones {
+    background-color: (rgb(138, 131, 132)187, 187, 187);
+    padding: 0.5vw;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*  =======================
+    ======== RELOJ ========
+    =======================
+*/
+
+.content-reloj {
+    width: 100%;
+    height: 25vw;
+}
+
+.reloj {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 55%;
+    height: 90%;
+    border: 5px solid #fff;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+}
+
+.reloj p {
+    font-size: 5vw;
+    color: #fff;
+}
